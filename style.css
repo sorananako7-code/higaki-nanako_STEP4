@@ -1,0 +1,62 @@
+/* 全体の設定 */
+body {
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    text-align: center; /* h1などを中央に */
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* フォームのコンテナ（画面いっぱいに表示させない） */
+.container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 500px; /* 範囲を指定 */
+    margin: 0 auto;   /* 中央配置 */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: left; /* 文字は左寄せ */
+}
+
+/* 入力フォームの間隔を統一 */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* paddingを含めた幅に */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 送信ボタン：青、左寄せ */
+.submit-btn {
+    background-color: #007bff; /* 青 */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* 左寄せを確実にするため */
+    margin-left: 0;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
